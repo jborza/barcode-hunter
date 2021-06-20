@@ -45,7 +45,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular);
-            this.textBox1.Location = new System.Drawing.Point(4, 59);
+            this.textBox1.Location = new System.Drawing.Point(4, 95);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(231, 26);
             this.textBox1.TabIndex = 1;
@@ -54,21 +54,21 @@
             // label1
             // 
             label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular);
-            label1.Location = new System.Drawing.Point(4, 33);
+            label1.Location = new System.Drawing.Point(4, 69);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(155, 20);
             label1.Text = "EAN last scanned:";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(4, 89);
+            this.label2.Location = new System.Drawing.Point(4, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.Text = "...";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(163, 91);
+            this.button2.Location = new System.Drawing.Point(163, 127);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(72, 20);
             this.button2.TabIndex = 4;
@@ -77,16 +77,16 @@
             // 
             // label3
             // 
-            label3.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            label3.Location = new System.Drawing.Point(3, 8);
+            label3.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Regular);
+            label3.Location = new System.Drawing.Point(3, 44);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(53, 20);
+            label3.Size = new System.Drawing.Size(94, 20);
             label3.Text = "Score:";
             // 
             // labelScore
             // 
-            this.labelScore.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
-            this.labelScore.Location = new System.Drawing.Point(103, -2);
+            this.labelScore.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Regular);
+            this.labelScore.Location = new System.Drawing.Point(103, 34);
             this.labelScore.Name = "labelScore";
             this.labelScore.Size = new System.Drawing.Size(132, 35);
             this.labelScore.Text = "000";
@@ -94,7 +94,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(163, 36);
+            this.button1.Location = new System.Drawing.Point(163, 72);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(72, 20);
             this.button1.TabIndex = 7;
@@ -104,9 +104,10 @@
             // labelRecent
             // 
             this.labelRecent.Font = new System.Drawing.Font("Tahoma", 72F, System.Drawing.FontStyle.Regular);
-            this.labelRecent.Location = new System.Drawing.Point(0, 114);
+            this.labelRecent.Location = new System.Drawing.Point(0, 160);
             this.labelRecent.Name = "labelRecent";
-            this.labelRecent.Size = new System.Drawing.Size(235, 154);
+            this.labelRecent.Size = new System.Drawing.Size(235, 131);
+            this.labelRecent.Text = ":-|";
             // 
             // Form1
             // 
